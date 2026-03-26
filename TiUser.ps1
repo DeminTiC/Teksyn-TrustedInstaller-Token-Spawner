@@ -1,5 +1,3 @@
-```powershell
-<#
 .SYNOPSIS
     借 TrustedInstaller 的壳，弹个 TI 权限的 CMD 窗口。
 .DESCRIPTION
@@ -105,4 +103,3 @@ catch {
 
 Write-Host "[*] 按任意键退出..."
 Read-Host
-```
