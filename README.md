@@ -2,7 +2,7 @@
 
 # TrustedInstaller Token Spawner
 
-利用 Windows 的 TrustedInstaller 服务实现权限提升，弹出一个具有 SYSTEM 特权的命令行窗口（CMD）。  
+利用 Windows 的 TrustedInstaller 服务实现权限提升，弹出一个具有特权的命令行窗口（CMD）。  
 纯 PowerShell 实现，仅依赖官方 PowerShell 模块 `NtObjectManager`，无需第三方二进制文件。
 
 [![PowerShell Gallery](https://img.shields.io/badge/PowerShell%20Gallery-NtObjectManager-blue.svg)](https://www.powershellgallery.com/packages/NtObjectManager)
@@ -23,7 +23,7 @@
 1. 以管理员身份打开 PowerShell 窗口。
 2. 将以下脚本保存为 `.ps1` 文件，或直接复制脚本内容到 PowerShell 中执行。
 3. 执行脚本：
-4. 等待脚本自动完成环境准备、启动服务、创建新窗口。新弹出的 CMD 窗口将拥有 TrustedInstaller 权限（等同于 SYSTEM）。
+4. 等待脚本自动完成环境准备、启动服务、创建新窗口。新弹出的 CMD 窗口将拥有 TrustedInstaller 权限。
 
 ## 验证权限
 在新弹出的 CMD 窗口中运行以下命令，检查是否存在 `TrustedInstaller` 安全组：
