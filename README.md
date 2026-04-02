@@ -1,5 +1,3 @@
-# Teksyn-TiUser
-
 # TrustedInstaller Token Spawner
 
 利用 Windows 的 TrustedInstaller 服务实现权限提升，弹出一个具有特权的命令行窗口（CMD）。  
