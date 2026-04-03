@@ -1,5 +1,7 @@
 # TrustedInstaller Token Spawner
 
+- [中文](README/README-CN.md)
+
 Elevate privileges using the Windows TrustedInstaller service and spawn a privileged command prompt (CMD).  
 Pure PowerShell implementation, relying only on the official PowerShell module `NtObjectManager` – no third-party binaries required.
 
