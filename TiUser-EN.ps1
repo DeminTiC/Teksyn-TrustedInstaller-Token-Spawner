@@ -7,7 +7,7 @@
     Pure PowerShell implementation using an official module, no third-party tools required.
 .NOTES
     Must be run as Administrator.
-    Be careful â€“ do not modify system files arbitrarily. Test in a safe environment first.
+    Be careful ¨C do not modify system files arbitrarily. Test in a safe environment first.
 #>
 
 #requires -RunAsAdministrator
@@ -75,7 +75,7 @@ else {
 # 5. Enable SeDebugPrivilege for ourselves
 try {
     Enable-NtTokenPrivilege SeDebugPrivilege
-    Write-Host "[+] SeDebugPrivilege enabled â€“ can now access other processes." -ForegroundColor Green
+    Write-Host "[+] SeDebugPrivilege enabled ¨C can now access other processes." -ForegroundColor Green
 }
 catch {
     Write-Error "Privilege issue. Are you running as Administrator? $_"
